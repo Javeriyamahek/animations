@@ -1,0 +1,255 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+}
+
+.container1{
+    height: 150px;
+    width: 150px;
+    background-color: red;  
+    box-shadow: 10px 10px 5px rgb(195, 195, 220);
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/049/201/490/small_2x/colorful-birds-perched-on-branches-surrounded-by-lush-greenery-during-a-golden-hour-in-nature-photo.jpeg");
+    background-size: cover ;
+    
+    /* transform: translatex(20px);
+    transform: translatey(20px); */
+    transform: rotate(45deg);
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    border-radius: 18px;
+    transition-duration: 2s;
+    animation: animation1 2s ease-in-out 1 normal forwards;
+}
+@keyframes animation1{
+    from{
+        position: absolute;
+        top: 35px;
+    }
+    to{
+        left:280px;
+    }
+}
+.container1:hover{
+    transform: rotate(45deg)
+    scale(1.2)
+}
+
+
+.container2{
+    height: 150px;
+    width: 150px;
+    background-color: red;  
+    box-shadow: 10px 10px 5px rgb(195, 195, 220);
+    background-image: url("https://img.freepik.com/premium-photo/white-dove-flying-air-black-background-with-copy-space-text-isolated-white-pigeo_1132132-5669.jpg?semt=ais_hybrid");
+    bottom: 250px;
+    right:585px;
+    background-size: cover;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 160px;
+    border-radius: 18px;
+    transition-duration: 2s;
+    animation: animation2 2s ease-in-out 1 normal forwards;
+}
+
+@keyframes animation2{
+    from{
+        position: absolute;
+        top: 40px;
+    }
+    to{
+        right:785px;
+    }
+}
+
+.container2:hover{
+    transform: rotate(45deg)
+    scale(1.2)
+}
+.container3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(39, 3, 3);  
+    box-shadow: 10px 10px 5px rgb(195, 195, 220);
+    background-image: url("https://th.bing.com/th/id/R.8e6d686514277874132132d91b03c7bb?rik=bkrkaRTX%2bMbz4w&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f60000%2fvelka%2fbird-1382034603Euc.jpg&ehk=EbeuaTOwDm%2f%2fhlx8DJ64RAS7HP3zqRFJgm%2f6gCIKpnY%3d&risl=&pid=ImgRaw&r=0");
+    right: 1300px;
+
+    background-size: cover;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 110px;
+    border-radius: 18px;
+    transition-duration: 2s;
+    animation: animation3 2s ease-in-out 1 normal forwards;
+}
+@keyframes animation3{
+    from{
+        position: absolute;
+        bottom:40px;
+    }
+    to{
+       right: 1110px;
+    }
+}
+.container3:hover{
+    transform: rotate(45deg)
+    scale(1.2)
+}
+
+
+.container4{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(48, 42, 137);  
+    box-shadow: 10px 10px 5px rgb(195, 195, 220);
+    background-image: url("https://images.pexels.com/photos/110812/pexels-photo-110812.jpeg?cs=srgb&dl=birds-macro-branch-110812.jpg&fm=jpg");
+    bottom: 110px;
+    right:570px;
+    background-size: cover;
+    transform: rotate(45deg);
+    position: absolute;
+    
+    border-radius: 18px;
+    transition-duration: 2s;
+    animation: animation4 2s ease-in-out 1 normal forwards;
+} 
+@keyframes animation4{
+    from{
+        position:absolute;
+        bottom: 40px;
+
+    }
+    to{
+       right:770px;
+    }
+}
+.container4:hover{
+    transform: rotate(45deg)
+    scale(1.2)
+}
+
+
+
+
+.container5{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(10, 9, 9);  
+    box-shadow: 10px 10px 5px rgb(195, 195, 220);
+    background-image: url("https://cdn.download.ams.birds.cornell.edu/api/v1/asset/303809101/1800");
+    background-size: cover;
+    transform: rotate(45deg);
+    border-radius: 18px;
+    transition-duration: 1s;
+    overflow: hidden;
+    animation: animation5 2s ease-in-out 1 normal forwards;
+}
+@keyframes animation5{
+   from{
+    scale: 1.1;
+   }
+   to{
+    scale: 1.3;
+   }
+    
+        
+    
+}
+
+.container5:hover{
+    transform: rotate(45deg)
+    scale(1.2)
+}
+
+
+  
+
+.para1{
+    color: rgb(58, 34, 81);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: oblique;
+    text-align: start;
+    position: absolute;
+    transform: translate(-50%);
+    top: 230px;
+    left: 1100px;
+    animation: animation6 2s ease-in-out 1 normal forwards;
+} 
+@keyframes animation6{
+    from{
+        
+        transform: translateX(200px);
+       
+    }
+    to{
+        /* transform: translataeX(10px); */
+        
+    }
+}
+
+/* .para2{
+    color: rgb(58, 34, 81);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: oblique;
+    text-align: start;
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%;
+    left:  80%;
+    
+}  */
+    
+.button1{
+    height: 40px;
+    width:90px;
+    color: rgb(63, 12, 164);
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    top:400px;
+    left:900px;
+    position: absolute;
+    font-size: 25px;
+    animation: anim1 2s ease-in-out 1 normal forwards;
+
+}
+@keyframes anim1{
+    from{
+        position: absolute;
+        scale: 1.1;
+    }
+    to{
+       scale:1.5;
+    }
+}
+
+.button2{
+    height: 40px;
+    width:150px;
+    color: rgb(63, 12, 164);
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    top:400px;
+    left:1100px;
+    position: absolute;
+    font-size: 25px;
+    animation: anim2 2s ease-in-out 1 normal forwards;
+}
+@keyframes anim2{
+    from{
+        position:absolute;
+        scale: 1.1;
+    }
+    to{
+        scale:1.4;
+    }
+}
